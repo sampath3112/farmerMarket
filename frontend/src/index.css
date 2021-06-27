@@ -1,0 +1,79 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+p {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+}
+.password-icon {
+  position: absolute;
+  top: 210px;
+  right: 30px;
+  cursor: pointer;
+}
+.bgimg {
+  background-image: url(https://images.unsplash.com/photo-1611175694989-4870fafa4494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+   width: 1000px;
+  height: 600px;
+  background-repeat: no-repeat, repeat; 
+}
+.rating span {
+  margin: 0.1rem;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+/* .change:hover{
+  color: '#774A23';
+} */
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.contain {
+  margin-left: auto;
+  color: 'white';
+
+}
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
